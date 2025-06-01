@@ -6,8 +6,6 @@ body {
     text-align: center;
     position: relative;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
 }
 
 h2, h3 {
@@ -119,11 +117,6 @@ div {
     height: auto;
     display: inline-block;
 }
-
-.logo-container img {
-    width: 200px; /* Adjust logo size */
-}
-
 table {
     width: 100%;
     text-align: center;
@@ -152,17 +145,9 @@ li {
     color: white;
     text-align: left;
 }
-
-.navigation {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
 .navigation button {
     padding: 10px 20px;
     font-size: 16px;
-    font-size: 1rem;
     background-color: #ffffff;
     color: #091d34;
     border: none;
@@ -318,7 +303,6 @@ body.dimmed::before {
     z-index: 1;
     pointer-events: none;
 }
-
 /* Responsive styles for smartphones */
 @media screen and (max-width: 768px) {
     body {
