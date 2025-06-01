@@ -101,7 +101,7 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 15px;
+    font-size: 40px;
     font-weight: bold;
     text-shadow: 2px 2px 4px black;
     text-align: center;
@@ -302,96 +302,4 @@ body.dimmed::before {
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
     pointer-events: none;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 30px; /* Keep the font size consistent */
-        padding: 0; /* Remove extra padding */
-    }
-
-    .logo-container .logo {
-        width: 30%; /* Maintain the desktop logo size */
-        height: auto;
-    }
-
-    .navigation {
-        display: flex; /* Keep navigation buttons in a row */
-        justify-content: center;
-        gap: 10px; /* Maintain spacing between buttons */
-    }
-
-    .navigation button {
-        padding: 10px 20px; /* Keep button size consistent */
-        font-size: 16px; /* Maintain desktop font size */
-    }
-
-    h1, h2, h3 {
-        font-size: 2rem; /* Keep heading sizes consistent */
-        text-align: center;
-    }
-
-    p {
-        font-size: 20px; /* Maintain paragraph font size */
-        text-align: center;
-    }
-
-    .image-container img {
-        width: 100%; /* Ensure the image scales properly */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    .image-container .overlay-text {
-        font-size:15px; /* Keep overlay text size consistent */
-        font-weight: bold;
-        text-shadow: 2px 2px 4px black; /* Maintain desktop styling */
-        text-align: center;
-        max-width: 80%; /* Limit text width */
-    }
-
-    .service {
-        margin: 20px; /* Maintain spacing between services */
-        text-align: center; /* Center-align content */
-    }
-
-    .service img {
-        width: 300px; /* Keep image size consistent */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    table {
-        width: 80%; /* Keep table width consistent */
-        margin: 0 auto; /* Center the table */
-        font-size: 20px; /* Maintain desktop font size */
-    }
-
-    th, td {
-        padding: 20px; /* Keep table cell padding consistent */
-    }
-
-    .cart-buttons button {
-        padding: 25px 40px; /* Maintain button size */
-        font-size: 24px; /* Keep font size consistent */
-    }
-
-    form {
-        width: 80%; /* Center the form */
-        margin: 0 auto; /* Maintain desktop alignment */
-    }
-
-    form input, form textarea {
-        width: 100%; /* Ensure inputs are full-width */
-        padding: 10px; /* Maintain desktop padding */
-        font-size: 16px; /* Keep font size consistent */
-    }
-
-    form button {
-        padding: 10px 20px; /* Maintain button size */
-        font-size: 16px; /* Keep font size consistent */
-    }
-
-    footer {
-        padding: 5px; /* Maintain footer padding */
-        font-size: 16px; /* Keep footer font size consistent */
-    }
 }
