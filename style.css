@@ -105,7 +105,7 @@ div {
     color: #fff; /* Text color */
     padding: 10px 20px; /* Add padding around the text */
     border-radius: 5px; /* Optional: Rounded corners */
-    font-size: 1rem; /* Adjust font size */
+    font-size: 0.5rem; /* Adjust font size */
     max-width: 80%; /* Limit text width */
     text-align: center; /* Center-align text */
 }
