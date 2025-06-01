@@ -342,7 +342,7 @@ body.dimmed::before {
     }
 
     .image-container .overlay-text {
-        font-size: 40px; /* Keep overlay text size consistent */
+        font-size:15px; /* Keep overlay text size consistent */
         font-weight: bold;
         text-shadow: 2px 2px 4px black; /* Maintain desktop styling */
         text-align: center;
