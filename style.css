@@ -6,6 +6,8 @@ body {
     text-align: center;
     position: relative;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 h2, h3 {
@@ -117,17 +119,71 @@ div {
     height: auto;
     display: inline-block;
 }
-table {
+
+.logo-container img {
+    width: 200px; /* Adjust logo size */
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.service {
+    opacity: 0;
+    transform: scale(0.9) translateY(50px);
+    transition: all 0.6s ease-in-out;
+    position: relative;
+    z-index: 2;
+    margin: 20px;
+    text-align: left;
+}
+
+.service.active {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+
+.service img {
+    width: 300px;
+    height: auto;
+}
+
+body.dimmed::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    pointer-events: none;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
     border-collapse: collapse;
     color: white;
-
 }
 
 th, td {
     border: 1px solid white;
-    padding: 20px;
+    padding: 10px;
+    text-align: left;
 }
 
 ul {
@@ -279,27 +335,79 @@ div {
     background-color: #d43c3c; 
 }
 
-.service {
-    opacity: 0;
-    transform: scale(0.9) translateY(50px);
-    transition: all 0.6s ease-in-out;
-    position: relative;
-    z-index: 2;
+.cart-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
 }
 
-.service.active {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-}
+/* Responsive styles for smartphones */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 10px;
+    }
 
-body.dimmed::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    pointer-events: none;
+    .logo-container img {
+        width: 150px; /* Reduce logo size */
+    }
+
+    .navigation {
+        flex-direction: column; /* Stack navigation buttons vertically */
+        gap: 5px;
+    }
+
+    .navigation button {
+        width: 100%; /* Make buttons full-width */
+        font-size: 0.9rem; /* Reduce button font size */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust heading size */
+        text-align: center;
+    }
+
+    .service {
+        margin: 20px 0; /* Add spacing between services */
+        text-align: center; /* Center-align content */
+    }
+
+    .service img {
+        width: 100%; /* Make images responsive */
+        max-width: 300px; /* Limit maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    table {
+        width: 100%; /* Make table responsive */
+        font-size: 0.9rem; /* Adjust table font size */
+    }
+
+    .cart-buttons button {
+        width: 100%; /* Make buttons full-width */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+
+    .contact-section {
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    form input, form textarea {
+        width: 100%; /* Make form inputs full-width */
+        margin-bottom: 10px; /* Add spacing between inputs */
+    }
+
+    form button {
+        width: 100%; /* Make submit button full-width */
+        padding: 10px;
+    }
+
+    .image-container img {
+        width: 90vw; /* Make image width responsive to viewport width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .overlay-text {
+        font-size: 1rem; /* Adjust overlay text size */
+        padding: 10px;
+    }
 }
