@@ -89,26 +89,26 @@ div {
 .image-container {
     position: relative;
     text-align: center;
-    width: 100%;
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.image-container .overlay-text {
+.overlay-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px black;
-    text-align: center;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding around the text */
+    border-radius: 5px; /* Optional: Rounded corners */
+    font-size: 1.2rem; /* Adjust font size */
+    max-width: 80%; /* Limit text width */
+    text-align: center; /* Center-align text */
 }
-
 .logo-container {
     text-align: center;
     margin: 20px 0;
