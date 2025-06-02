@@ -343,13 +343,11 @@ body.dimmed::before {
     }
 
     .image-container .overlay-text {
-       font-size: 1.5rem; /* Reduce font size for smaller screens */
+        font-size: 20px; /* Keep overlay text size consistent */
         font-weight: bold;
         text-shadow: 2px 2px 4px black; /* Maintain desktop styling */
         text-align: center;
-        white-space: nowrap; /* Prevent text wrapping */
-        max-width: 100%; /* Ensure text spans the width of the image */
-    }
+        max-width: 50%; /* Limit text width */    }
 
     .service {
         margin: 20px; /* Maintain spacing between services */
