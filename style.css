@@ -405,10 +405,10 @@ img {
     }
 
      .cart-buttons button {
-        padding: 8px 16px; /* Reduce padding for smaller buttons */
-        font-size: 14px; /* Reduce font size */
+        padding: 6px 10px; /* Reduce padding for smaller buttons */
+        font-size: 12px; /* Reduce font size */
         border-radius: 5px; /* Keep rounded corners consistent */
-        width: 100%; /* Make buttons full-width for better usability */
+        width: 80%; /* Make buttons full-width for better usability */
         margin-bottom: 10px; /* Add spacing between buttons */
     }
 
