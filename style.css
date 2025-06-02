@@ -387,12 +387,6 @@ img {
     th, td {
         padding: 20px; /* Keep table cell padding consistent */
     }
- 
-    coaching-button {
-        font-size: 16px;
-        padding: 10px 15px;
-        border-radius: 12px;
-    }
 
     form {
         width: 80%; /* Center the form */
@@ -410,6 +404,21 @@ img {
         font-size: 16px; /* Keep font size consistent */
     }
 
+     .cart-buttons button {
+        padding: 8px 16px; /* Reduce padding for smaller buttons */
+        font-size: 14px; /* Reduce font size */
+        border-radius: 5px; /* Keep rounded corners consistent */
+        width: 100%; /* Make buttons full-width for better usability */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+
+    .clear-cart-button {
+        padding: 10px 20px; /* Adjust padding for the clear cart button */
+        font-size: 14px; /* Reduce font size */
+        border-radius: 5px; /* Keep rounded corners consistent */
+        width: 100%; /* Make button full-width */
+    }
+    
     footer {
         padding: 5px; /* Maintain footer padding */
         font-size: 16px; /* Keep footer font size consistent */
