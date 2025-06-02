@@ -184,6 +184,9 @@ li {
 .location-section iframe {
     border: 0;
     margin: 20px auto;
+    width: 80%;        /* Adjust width */
+    height: 300px;     /* Set a reasonable height */
+    display: block;
 }
 
 .social-media-section {
