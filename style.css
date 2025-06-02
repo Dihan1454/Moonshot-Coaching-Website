@@ -306,7 +306,7 @@ body.dimmed::before {
 
 @media screen and (max-width: 828px) {
     body {
-        font-size: 20px; /* Keep the font size consistent */
+        font-size: 30px; /* Keep the font size consistent */
         padding: 0; /* Remove extra padding */
     }
 
