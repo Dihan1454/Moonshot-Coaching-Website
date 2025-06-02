@@ -372,7 +372,7 @@ img {
 
     .location-section iframe {
     width: 90%;        /* Slightly narrower on small screens */
-    height: 200px;     /* Reduce height for better fit */
+    height: auto;     /* Reduce height for better fit */
 }
 
     table {
