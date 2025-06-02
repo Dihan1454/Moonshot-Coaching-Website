@@ -2,7 +2,7 @@ body {
     background-color: #091d34;
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     position: relative;
     overflow-x: hidden;
@@ -306,7 +306,7 @@ body.dimmed::before {
 
 @media screen and (max-width: 828px) {
     body {
-        font-size: 30px; /* Keep the font size consistent */
+        font-size: 20px; /* Keep the font size consistent */
         padding: 0; /* Remove extra padding */
     }
 
@@ -336,7 +336,7 @@ body.dimmed::before {
     }
 
     p {
-        font-size: 15px; /* Maintain paragraph font size */
+        font-size: 10px; /* Maintain paragraph font size */
         text-align: center;
     }
 
