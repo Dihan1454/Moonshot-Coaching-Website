@@ -323,9 +323,14 @@ body.dimmed::before {
     }
 
     .navigation button {
-        padding: 10px 20px; /* Keep button size consistent */
-        font-size: 16px; /* Maintain desktop font size */
+        padding: 6px 12px; /* Keep button size consistent */
+        font-size: 9.6px; /* Maintain desktop font size */
     }
+
+     .navigation button a {
+        font-size: 9.6px; /* Ensure the link font size matches the button */
+    }
+
 
     h1, h2, h3 {
         font-size: 2rem; /* Keep heading sizes consistent */
