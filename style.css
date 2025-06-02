@@ -387,10 +387,11 @@ img {
     th, td {
         padding: 20px; /* Keep table cell padding consistent */
     }
-
-    .cart-buttons button {
-        padding: 10px 22px; /* Maintain button size */
-        font-size: 14px; /* Keep font size consistent */
+ 
+    .coaching-button {
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 12px;
     }
 
     form {
