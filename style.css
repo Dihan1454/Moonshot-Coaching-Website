@@ -336,7 +336,7 @@ body.dimmed::before {
     }
 
     p {
-        font-size: 10px; /* Maintain paragraph font size */
+        font-size: 15px; /* Maintain paragraph font size */
         text-align: center;
     }
 
