@@ -323,7 +323,7 @@ body.dimmed::before {
     }
 
     .navigation button {
-        padding: 10px 20px; /* Keep button size consistent */
+        padding: 5px 10px; /* Keep button size consistent */
         font-size: 16px; /* Maintain desktop font size */
     }
 
