@@ -388,7 +388,7 @@ img {
         padding: 20px; /* Keep table cell padding consistent */
     }
  
-    .coaching-button {
+    coaching-button {
         font-size: 16px;
         padding: 10px 15px;
         border-radius: 12px;
