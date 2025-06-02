@@ -390,7 +390,7 @@ img {
 
     .cart-buttons button {
         padding: 10px 22px; /* Maintain button size */
-        font-size: 24px; /* Keep font size consistent */
+        font-size: 14px; /* Keep font size consistent */
     }
 
     form {
